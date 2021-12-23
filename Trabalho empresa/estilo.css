@@ -1,0 +1,30 @@
+body {
+	background-color: ;
+}
+
+.menu ul{
+padding:  0px;
+margin: 0px;
+background-color: ;
+list-style: none;
+}
+.menu ul li{
+	display: incline;
+	text-align: center;
+}
+
+.menu ul li a{
+	padding: 2px 10px;
+	display: inline-block;
+
+	background-color: ;
+	color: black;
+	text-decoration: none;
+	border-bottom: 2px solid #C0C0C0;
+}
+
+.menu ul li a:hover{
+	background-color: ;
+	color: #808080;
+	border-bottom: 3px solid #696969;
+}

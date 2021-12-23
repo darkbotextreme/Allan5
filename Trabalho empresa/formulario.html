@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+	<body style="background-color:lightgray"><CTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<center>
+	<title>Formulário</title>
+	<link rel = "stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+
+			<div class="menu">
+<ul>
+	<li><a href="trabalho.html">Home</a></li>
+	<li><a href="sobre.html">Sobre Nós</a></li>
+	<li><a href="produtos.html"> Produtos</a></li>
+	<li><a href="contatos.html">Contatos</a></li>
+</ul>
+			</div>	
+	<div>
+	<h1>Formulário para Compra</h1>
+	<p>Insira as informações referentes à compra.</p>
+	</div>
+	<form>
+		<fieldset>
+			<h2>Dados Pessoais</h2>
+			<div>
+				<label>Nome Completo:</label>
+				<input type="text" name="nomecompleto" id="nomecompleto"></input>
+				<br><br>
+				<label>Idade:</label>
+				<input type="number" name="idade" id="idade"></input>
+				<br><br>
+				<label>E-mail:</label>
+				<input type="email" name="email" id="email"></input>
+				<br><br>
+				<label>Data de Nascimento:</label>
+				<input type="date" name="data" id="data"></input>
+				<br><br>
+				<label>Sexo:</label>
+				<input type="radio" name="sexo" id="sexo" valeu="mas">Masculino</input>
+				<input type="radio" name="sexo" id="sexo" valeu="fem">Feminino</input>
+				<input type="radio" name="sexo" id="sexo" valeu="out">Outro</input>
+			</div>
+		</fieldset>
+<br>
+		<fieldset>
+			<h2>Endereço</h2>
+			<div>
+				<label>Bairro:</label>
+				<input type="text" name="bairro" id="bairro"></input>
+				<br><br>
+				<label>Cidade:</label>
+				<input type="text" name="cidade" id="cidade"></input>
+				<br><br>
+				<label>Logradouro:</label>
+				<input type="text" name="logradouro" id="logradouro"></input>
+				<br><br>
+				<label>Nome da Rua:</label>
+				<input type="text" name="rua" id="rua"></input>
+				<br><br>
+				<label>Número:</label>
+				<input type="number" name="num" id="num"></input>
+				<br><br>
+				<label>Complemento:</label>
+				<input type="text" name="complemento" id="complemento"></input>
+				<br><br>
+			</div>
+		</fieldset>
+<br>
+		<fieldset>
+			<h2>Orçamento</h2>
+			<div>
+				<label>Produto:</label>
+				<select id="prod">
+					<option>Selecione</option>
+					<option>Camisa Social Masculina Manga Curta</option>
+					<option>Calça Social Clássica Cinza Preta Masculina</option>
+				</select>
+				<br><br>
+				<label>Quantidade Requerida:</label>
+				<input type="number" name="quant" id="quant"></input>
+				<br><br>
+				<label>Preço Visto no Site:</label>
+				<input type="text" name="preco" id="preco"></input>
+				<br><br>
+				<label>Forma de Pagamento:</label>
+				<input type="radio" name="dinheiro" id="paga" valeu="dinheiro">Dinheiro</input>
+				<input type="radio" name="débito" id="paga" valeu="debito">Cartão de Débito</input>
+				<input type="radio" name="crédito" id="paga" valeu="credito">Cartão de Crédito</input>	
+				<input type="radio" name="pix" id="paga" valeu="pix">Pix</input>
+				<br><br>
+				<label>Porcentagem de Desconto Pretendido:</label>
+				<select id="desc">
+					<option>Selecione</option>
+					<option>25%</option>
+					<option>50%</option>
+					<option>75%</option>
+					<option>100%</option>
+				</select>
+			</div>
+		</fieldset>
+<br>
+			<button type="submit">Enviar</button>
+</form>
+</body>
+</html>
